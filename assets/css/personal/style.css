@@ -18089,11 +18089,12 @@ a.disabled {
   .custom-grey-info {
     display: block;
     right: 12px;
-    width: 36px;
+    width: 35px;
     height: 29px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.15);
     bottom: 12px;
+    padding: 5px;
   }
 
   .mobile-info-icon-div {
@@ -18187,7 +18188,7 @@ a.disabled {
     width: 100% !important;
   }
   .feed-owner {
-    width: 23% !important;
+    width: 27% !important;
   }
 
   .custom-padding-left {
@@ -18622,6 +18623,7 @@ cursor: pointer;
 }
 .ggm-logo-top-header {
   width: 100%;
+  height: 25px;
 }
 .depart-phone-dial:hover, .depart-phone-dial:focus, .depart-phone-dial.active {
   background: none !important;
@@ -18886,6 +18888,7 @@ div#wave .dot:nth-child(3) {
   }
 }
 
+
 .fixed-position{
   position: fixed !important;
 }
@@ -18908,3 +18911,6 @@ div#wave .dot:nth-child(3) {
   /* margin-top: 0.4rem; */
 }
 
+.app-footer a:hover {
+  background-color: transparent !important;
+}
